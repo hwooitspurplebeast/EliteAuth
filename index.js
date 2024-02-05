@@ -1,5 +1,5 @@
 function verify() {
-  const x = generateRandomChar(); // Assuming generateRandomChar is defined in verificationchar.js
+  const x = generateRandomChar();
   const userTyped = prompt(`Type "${x}" below:`);
 
   if (userTyped === x) {
